@@ -1,0 +1,55 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{subject}}</title>
+    <!-- <style> -->
+  </head>
+  <body style="Margin:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;min-width:100%;background-color:#003E52;">
+    
+    <span style="width:100%;display:none !important;visibility: hidden;mso-hide:all;font-size:1px;color:#333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">{{description}}</span>
+
+    <center class="wrapper" style="min-width:100%;width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;background-color:#003E52">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#003E52;min-width:100%;" bgcolor="#003E52">
+        <tr>
+          <td width="100%">
+            <div class="webkit" style="max-width:600px;Margin:0 auto;">
+            
+              <!--[if (gte mso 9)|(IE)]>
+
+              <table width="600" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;font-family: Calibri, sans-serif;color:#333333;" >
+                <tr>
+                  <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                  <![endif]-->
+          
+
+              <center class="wrapper" style="min-width:100%;width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;background-color:#003E52">
+                {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}}
+                {{> body}}
+              </center>
+
+
+                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+              <![endif]-->
+            </div>
+          </td>
+        </tr>
+      </table>
+
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  </body>
+</html>
+

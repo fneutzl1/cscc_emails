@@ -1,0 +1,226 @@
+@import 'settings';
+/* @import 'foundation-emails'; */
+
+
+$cscc_back: #EBEBEB;
+
+$cscc_dark_blue: #002d3c;
+$cscc_blue: #003E52;
+$cscc_med_blue: #00A5B5;
+
+
+.contain {
+	width:100%;
+	max-width:600px;
+	min-width:100%;
+	background: white;
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+	p {
+		padding: 0 16px;
+	}
+}
+
+.header {
+	background: $cscc_dark_blue;
+	.row {
+		min-height: 100px;
+		width: auto;
+		margin: 0 auto;
+	}
+}
+
+.hero {
+	padding-bottom: 10px;
+}
+
+.1-col {
+	min-height: 50px;
+	width: 100%;
+	max-width: 580px;
+	min-width:100%;
+	display: inline-block;
+	padding: 0 !important;
+	margin-top: 15px;
+	img {
+		max-width: 580px;
+	}
+}
+
+.2-col {
+	min-height: 50px;
+	width: 100%;
+	max-width: 270px;
+	display: inline-block;
+	background:orange;
+	padding: 5px !important;
+	margin: 15px 10px 0 10px;
+}
+
+.3-col {
+	min-height: 50px;
+	width: 100%;
+	max-width: 170px;
+	display: inline-block;
+	background:orange;
+	padding: 5px !important;
+	margin: 15px 10px 0 10px;
+}
+
+
+.purple {
+	background: purple;
+	p {
+		color: white;
+	}
+}
+
+.orange {
+	background: orange;
+	p {
+		color: black;
+	}
+}
+
+.grey {
+	background: grey;
+	p {
+		color: white;
+	}
+}
+
+
+//DEFAULT STUFF (some removing required)
+
+* {
+			-webkit-font-smoothing: antialiased;
+		}
+		body {
+			Margin: 0;
+			padding: 0;
+			min-width: 100%;
+			font-family: Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+			mso-line-height-rule: exactly;
+		}
+		table {
+			border-spacing: 0;
+			color: #333333;
+			font-family: Arial, sans-serif;
+		}
+		img {
+			border: 0;
+		}
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+		}
+		.webkit {
+			max-width: 600px;
+		}
+		.outer {
+			Margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+		}
+		/* .full-width-image img {
+			width: 100%;
+			max-width: 600px;
+			height: auto;
+		}
+		.inner {
+			padding: 10px;
+		}
+		p {
+			Margin: 0;
+			padding-bottom: 10px;
+		}
+		.h1 {
+			font-size: 21px;
+			font-weight: bold;
+			Margin-top: 15px;
+			Margin-bottom: 5px;
+			font-family: Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+		}
+		.h2 {
+			font-size: 18px;
+			font-weight: bold;
+			Margin-top: 10px;
+			Margin-bottom: 5px;
+			font-family: Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+		}
+		 
+		.one-column .contents {
+			text-align: left;
+			font-family: Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+		}
+		.one-column p {
+			font-size: 14px;
+			Margin-bottom: 10px;
+			font-family: Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+		}
+		
+		.two-column {
+			text-align: center;
+			font-size: 0;
+		}
+		.two-column .column {
+			width: 100%;
+			max-width: 300px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.contents {
+			width: 100%;
+		}
+		.two-column .contents {
+			font-size: 14px;
+			text-align: left;
+		}
+		.two-column img {
+			width: 100%;
+			max-width: 280px;
+			height: auto;
+		}
+		.two-column .text {
+			padding-top: 10px;
+		}
+
+		.three-column {
+			text-align: center;
+			font-size: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.three-column .column {
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.three-column .contents {
+			font-size: 14px;
+			text-align: center;
+		}
+		.three-column img {
+			width: 100%;
+			max-width: 180px;
+			height: auto;
+		}
+		.three-column .text {
+			padding-top: 10px;
+		}
+
+		.img-align-vertical img { 
+			display: inline-block; 
+			vertical-align: middle; 
+		} */
